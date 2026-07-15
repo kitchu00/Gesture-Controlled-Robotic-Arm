@@ -1,28 +1,21 @@
 # Gesture Controlled Robotic Arm
 
-**A robotic arm that moves with your hand gestures** — controlled by webcam using AI (MediaPipe).
-No joystick. No buttons. Just your hand. 
+Hand gesture controlled robotic arm using Python + MediaPipe + Arduino.
 
-![Project Showcase](images/demo-showcase.jpg)
+**Status:** Parts Ordered | Building Soon
 
-### Why I am building this?
-- Learn Computer Vision + Robotics
-- Good portfolio project for jobs
+## Tech Stack
+- Python + OpenCV + MediaPipe (Hand Tracking)
+- Arduino Uno + SG90 Servos
+- Direct servo control
 
-### Current Status
-- Planning & GitHub setup → **In Progress**
-- Hardware shopping → Not started
-- Building → Not started
+## Current Progress
+- GitHub setup done
+- Fusion 360 design done
+- Parts ordered
 
-### Tech Used (Will Learn)
-- Arduino (Microcontroller)
-- Python + OpenCV + MediaPipe (Hand tracking)
-- SG90 Servo Motors
-
-### Next Steps
-1. Buy parts
-2. Test servos
-3. Make cardboard arm
-4. Connect hand tracking
-5. Make full working demo
-
+## Next Steps
+1. Assemble mechanical arm
+2. Servo testing
+3. Hand gesture mapping
+4. Full integration
