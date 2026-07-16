@@ -1,28 +1,24 @@
-# Gesture Controlled Robotic Arm
+# Gesture Controlled 6-DOF Robotic Arm
 
-**A robotic arm that moves with your hand gestures** — controlled by webcam using AI (MediaPipe).
-No joystick. No buttons. Just your hand. 
+A 6 Degrees of Freedom robotic arm controlled in real-time using hand gestures captured through a webcam.
 
-![Project Showcase](images/demo-showcase.jpg)
+![Robotic Arm](images/arm_assembly.jpg) <!-- Add your photo later -->
 
-### Why I am building this?
-- Learn Computer Vision + Robotics
-- Good portfolio project for jobs
+## Features
+- 6 Servo Control (Base, Shoulder, Elbow, Wrist Pitch, Wrist Roll, Gripper)
+- Real-time Hand Gesture Recognition using MediaPipe
+- No controllers — just your hand
+- Built for learning and portfolio
 
-### Current Status
-- Planning & GitHub setup → **In Progress**
-- Hardware shopping → Not started
-- Building → Not started
+## Tech Stack
+- **Hardware**: 6-DOF Acrylic/3D Printed Arm + Arduino Uno + Mix of MG90S & SG90 Servos
+- **Software**: Python + OpenCV + MediaPipe + PySerial
+- **Communication**: Serial (USB)
 
-### Tech Used (Will Learn)
-- Arduino (Microcontroller)
-- Python + OpenCV + MediaPipe (Hand tracking)
-- SG90 Servo Motors
+## Project Status
+- ✅ Arduino setup done
+- ✅ Basic servo test code ready
+- 🔄 Parts ordered (6DOF Arm Kit)
+- 🔄 Gesture control in progress
 
-### Next Steps
-1. Buy parts
-2. Test servos
-3. Make cardboard arm
-4. Connect hand tracking
-5. Make full working demo
-
+## Folder Structure
